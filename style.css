@@ -3,7 +3,7 @@ li.listitem {
     padding: 3px
 }
 
-a.listitem:visited, a.listitem:link, a.listitme:active
+a.listitem:visited, a.listitem:link, a.listitem:active
 {
     display: inline-block;
     text-decoration: none;
@@ -14,7 +14,6 @@ a.listitem:visited, a.listitem:link, a.listitme:active
     white-space: nowrap;
     height: 25px;
 }
-
 /*
 a:hover.listitem {
     transition: 0.4s;
@@ -22,6 +21,10 @@ a:hover.listitem {
     width: 150px;
 }
 */
+
+a:active.listitem {
+    font-style: bold;
+}
 
 a:hover.listitem {
         transform:  scale(1.2)
@@ -41,7 +44,7 @@ ul.topnav {
 ul.topnav li {
     float: left;
     text-align: center;
-    width:20%;
+    width: 25%;
     height: auto;
 }
 ul.topnav li a {
@@ -58,14 +61,8 @@ ul.topnav li a:hover {
     transform: scale(1.2);
 }
 
-header: hover {
-    background-color: rgb(177, 37, 37);
-}
 
-.bold a{
-    font-weight: bold;
-    text-align: center;
-}
+
 
 @media screen and (max-width:600px) {
     ul.topnav li {
