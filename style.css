@@ -1,16 +1,28 @@
 img {
     border-radius: 50%;
+    width: 200px;
+    height: auto;
+    margin-bottom: 50px;
 }
 
 
 h1 {
     color: dodgerblue;
     font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-
-body {
-    color: brown;
+h2 {
+    color: black;
+    margin-top: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
+
+
+h3 {
+    
+    font-family: 'Roboto', sans-serif;
+}
