@@ -1,3 +1,90 @@
+li.listitem {
+    color: black;
+    padding: 3px
+}
+
+a.listitem:visited, a.listitem:link, a.listitme:active
+{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid transparent;
+    width: 0px;
+    transition: 0.4s ease;
+    white-space: nowrap;
+    height: 25px;
+}
+
+/*
+a:hover.listitem {
+    transition: 0.4s;
+    border-bottom: 4px solid dodgerblue;
+    width: 150px;
+}
+*/
+
+a:hover.listitem {
+        transform:  scale(1.2)
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: dodgerblue;
+    font-family: 'Roboto'; 'sans-serif';
+    
+}
+
+ul.topnav li {
+    float: left;
+    text-align: center;
+    width:20%;
+    height: auto;
+}
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {
+    transform: scale(1.2);
+}
+
+header: hover {
+    background-color: rgb(177, 37, 37);
+}
+
+.bold a{
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    ul.topnav li {
+        float: none;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+    
+    h4 {
+        text-align: center;
+    }
+
+}
+
+
+
+
+
 img {
     border-radius: 50%;
     width: 200px;
