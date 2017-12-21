@@ -2,10 +2,15 @@ img {
     border-radius: 50%;
 }
 
-body {
-    color: brown;
-}
 
 h1 {
-    color: aqua;
+    color: dodgerblue;
+    font-family: 'Roboto', sans-serif;
 }
+
+
+body {
+    color: brown;
+    font-family: 'Roboto', sans-serif;
+}
+
