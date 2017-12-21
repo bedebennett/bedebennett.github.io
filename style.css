@@ -187,7 +187,22 @@ ul.topnav li a:hover {
 }
 
 
+h1 {
+    color: dodgerblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
+h2 {
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
 
 
 img {
@@ -195,26 +210,7 @@ img {
     width: 200px;
     height: auto;
     margin-bottom: 50px;
-}
-
-
-h1 {
-    color: dodgerblue;
-    font-family: 'Roboto', sans-serif;
-    font-size: 300%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-h2 {
-    color: black;
-    margin-top: 0px;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-
-h3 {
+    margin: auto;
+    display: block;
     
-    font-family: 'Roboto', sans-serif;
 }
