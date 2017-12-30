@@ -160,8 +160,15 @@ a:hover.listitem {
 */
 
 
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
 
 
+a.resume {
+    color: black;
+}
 
 a:active.listitem {
     font-style: bold;
