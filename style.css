@@ -308,9 +308,6 @@ ul {
 resume {
     color: dodgerblue;
     font-family: 'Roboto', sans-serif;
-    font-size: 300%;
-    margin-left: 40px;
-    margin-top: 40px;
-    margin-bottom: 0px;
-    text-align: center;
+    font-size: 40px;
+    margin-left: 20px;
 }
