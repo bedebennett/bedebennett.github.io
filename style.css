@@ -160,6 +160,7 @@ a:hover.listitem {
 */
 
 
+
 a {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -168,6 +169,7 @@ a {
 
 a.resume {
     color: black;
+    margin: 20px;
 }
 
 a:active.listitem {
