@@ -1,0 +1,15 @@
+h2:hover {
+    
+   color: black;
+}
+
+
+h2 {
+    color: dodgerblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    transition: 0.4s;
+}

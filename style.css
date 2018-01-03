@@ -271,13 +271,18 @@ ul.topnav li a:hover {
 }
 
 
+h1:hover {
+    transform: scale(1.2)
+}
+
 h1 {
     color: dodgerblue;
     font-family: 'Roboto', sans-serif;
-    font-size: 300%;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    font-size: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
+    transition: 0.3s;
 }
 
 h2 {
