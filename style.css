@@ -270,6 +270,11 @@ ul.topnav li a:hover {
 
 }
 
+
+
+a: visited { text-decoration: none; color: dodgerblue; }
+a: focus {text-decoration: none; color: black;}
+
 h1:hover {
     transform: scale(1.2)
 }

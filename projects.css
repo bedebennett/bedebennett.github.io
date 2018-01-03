@@ -1,2 +1,8 @@
-a: visited { text-decoration: none; color: dodgerblue; }
-a: focus {text-decoration: none; color: black;}
+a {
+    transition: 0.5s;
+}
+
+a:link { color: dodgerblue;}
+a:visited { text-decoration: none; color: dodgerblue; }
+a:hover { text-decoration: none; color: black; }
+
