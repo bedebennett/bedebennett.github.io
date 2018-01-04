@@ -241,7 +241,7 @@ ul.topnav li a:hover {
 }
 
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:720px) {
     ul.topnav li {
         float: none;
         text-align: center;
