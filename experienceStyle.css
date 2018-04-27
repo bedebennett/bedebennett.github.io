@@ -1,0 +1,51 @@
+
+img.slide {
+    border-radius: 0%;
+    height: 250px;
+    width: auto;
+    float: right;
+}
+
+img.experience {
+    width: 250px;
+    height: auto;
+    border-radius: 0%;
+    margin: 10px;
+}
+
+h2.experience {
+    font-size: 2em;
+    margin: 10px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+.wrapper { 
+		background: white; 
+		margin: auto; 
+		position: relative;
+		border-radius: 5px;
+		width: 100%;
+	}
+	.scrolls { 
+		overflow-x: scroll;
+		overflow-y: visible;
+        white-space: nowrap;
+		height: 100%;
+	} 
+	.imageDiv { 
+		margin: 5px;
+		height: 250px;
+        width: auto;
+	} 
+	.imageDiv img { 
+		margin: 5px;
+		max-height: 100%;
+		cursor: pointer;
+        display: inline-block;
+	}
