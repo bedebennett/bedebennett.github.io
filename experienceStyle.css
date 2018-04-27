@@ -27,7 +27,9 @@ p.experience {
     margin: 10px;
 }
 
-
+iframe {
+    margin: 10px;
+}
 .wrapper { 
 		background: white; 
 		margin: auto; 

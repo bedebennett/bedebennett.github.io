@@ -178,9 +178,7 @@ a.resume {
     margin: 20px;
 }
 
-a:active.listitem {
-    font-style: bold;
-}
+
 
 a:hover.listitem {
         transform:  scale(1.2)
@@ -204,15 +202,9 @@ ul.topnav li {
     margin-bottom: 5px;
     float: left;
     text-align: center;
-    width: 10%;
+    width: 25%;
     height: auto;
     
-}
-
-ul.topnav img {
-    height: 45px;
-    width: 45px;
-    margin-left: 6px;
 }
 
 
@@ -227,20 +219,6 @@ ul.topnav li a {
     font-size: 17px;
 }
 
-ul.topnav li b {
-    white-space: nowrap;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-ul.topnav li b:hover {
-    transform: scale(1.2);
-}
 
 ul.topnav li a:hover {
     transform: scale(1.2);
@@ -253,26 +231,7 @@ ul.topnav li a:hover {
         text-align: center;
         width: auto;
         height: auto;
-    }
-    
-    h4 {
-        text-align: center;
-    }
-    
-    ul.topnav li b {
-        float: none;
-        text-align: center;
-        width: auto;
-        height: auto;
-        margin-left: 0px;
-}
-    
-    ul.topnav img {
-    height: 0px;
-    width: 0px;
-    vertical-align:middle;
-}
-    
+    } 
 
 }
 
@@ -287,7 +246,7 @@ h1:hover {
 
 h1 {
     color: dodgerblue;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 75px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -295,23 +254,8 @@ h1 {
     transition: 0.3s;
 }
 
-h2 {
-    color: black;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
 
 
-img {
-    width: 200px;
-    height: auto;
-    margin-bottom: 50px;
-    margin: auto;
-    display: block;
-    
-}
 
 li {
     font-family: 'Roboto', sans-serif;
