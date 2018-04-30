@@ -193,7 +193,6 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: dodgerblue;
-    font-family: 'Roboto'; 'sans-serif';
     
 }
 
@@ -270,9 +269,6 @@ h2 {
 
 
 
-li {
-    font-family: 'Roboto', sans-serif;
-}
 
 
 ul {
@@ -281,9 +277,3 @@ ul {
     margin-top: 10px;
 }
 
-resume {
-    color: dodgerblue;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    margin-left: 20px;
-}
