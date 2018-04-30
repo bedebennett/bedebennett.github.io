@@ -2,7 +2,7 @@
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
+del, dfn, em, ins, kbd, q, samp,
 small, strong, sub, sup, var,
 b, i,
 dl, dt, dd, ol, ul, li,
@@ -240,18 +240,31 @@ ul.topnav li a:hover {
 a: visited { text-decoration: none; color: dodgerblue; }
 a: focus {text-decoration: none; color: black;}
 
-h1:hover {
-    transform: scale(1.2)
+img.profile {
+    border-radius: 50%;
+    width: 150px;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
 }
 
 h1 {
     color: dodgerblue;
     font-family: 'Raleway', sans-serif;
     font-size: 75px;
+    margin-top: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+h2 {
+    color: dodgerblue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 37.5px;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin: 20px;
     text-align: center;
-    transition: 0.3s;
 }
 
 
