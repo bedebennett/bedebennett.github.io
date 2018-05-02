@@ -21,6 +21,10 @@ h2.experience {
 }
 
 
+h2 a: visited {
+    text-decoration: none;
+    color: dodgerblue;
+}
 
 p.experience {
     font-family: 'Raleway', sans-serif;
@@ -51,7 +55,7 @@ iframe {
         width: auto;
 	} 
 	.imageDiv img { 
-		margin-right: 20px;
+		margin-right: 2.5px;
 		max-height: 100%;
 		cursor: pointer;
         display: inline-block;
