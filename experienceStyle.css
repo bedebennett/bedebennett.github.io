@@ -13,6 +13,7 @@ img.experience {
     margin: 10px;
 }
 
+
 h2.experience {
     font-family: 'Raleway', sans-serif;
     font-size: 2em;
@@ -60,3 +61,9 @@ iframe {
 		cursor: pointer;
         display: inline-block;
 	}
+
+
+img.jacinda {
+    height: 1000px;
+    width: 750px;
+}
