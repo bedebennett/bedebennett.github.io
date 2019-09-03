@@ -1,0 +1,39 @@
+body {
+    background-color: #FFB7A3;
+}
+
+.display_type {
+    color: #fff9ee;
+    font-family: 'Lexend Deca', sans-serif;
+    padding-left: 60px;
+}
+
+h1 {
+    font-size: 6em;
+    margin-bottom: -70px;
+}
+
+h2 {
+    font-size: 4.5em;
+}
+
+
+
+#page > header {
+  grid-area: header;
+  background-color: #8ca0ff;
+}
+
+#page > main {
+  grid-area: main;
+  background-color: sienna;
+}
+
+#page > sidebar {
+  grid-area: sidebar;
+  background-color: skyblue;
+}
+
+
+
+grid-template-areas: "header header header" "sidebar main main";

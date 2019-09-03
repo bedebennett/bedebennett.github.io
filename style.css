@@ -1,288 +1,51 @@
-
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
-
 body {
-    line-height:1;
+    background-color: #FFB7A3;
 }
 
-
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
-    display:block;
-}
-
-nav ul {
-    list-style:none;
-}
-
-blockquote, q {
-    quotes:none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
-}
-
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-    white-space: nowrap;
-}
-
-b {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
-
-
-
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
-
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000; 
-    font-style:italic;
-    font-weight:bold;
-}
-
-del {
-    text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;   
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-
-input, select {
-    vertical-align:middle;
-}
-
-
-
-
-
-
-
-
-
-
-
-.header {
-    margin: 0;
-}
-
-li.listitem {
-    color: black;
-    padding: 3px
-}
-
-a.listitem:visited, a.listitem:link, a.listitem:active
-{
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    border-bottom: 3px solid transparent;
-    width: 0px;
-    transition: 0.4s ease;
-    white-space: nowrap;
-    height: 25px;
-}
-
-
-
-b.listitem:visited, b.listitem:link, b.listitem:active
-{
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    border-bottom: 3px solid transparent;
-    width: 0px;
-    transition: 0.4s ease;
-    white-space: nowrap;
-    height: 25px;
-}
-/*
-a:hover.listitem {
-    transition: 0.4s;
-    border-bottom: 4px solid dodgerblue;
-    width: 150px;
-}
-*/
-
-
-
-a {
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    font-weight: 400;
-}
-
-a.boldify {
-    font-weight: 700;
-}
-
-
-a.resume {
-    color: black;
-    margin: 20px;
-}
-
-
-
-a:hover.listitem {
-        transform:  scale(1.2)
-}
-
-
-
-
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: dodgerblue;
-    
-}
-
-ul.topnav li {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    float: left;
-    text-align: center;
-    width: 25%;
-    height: auto;
-    
-}
-
-
-
-ul.topnav li a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-
-ul.topnav li a:hover {
-    transform: scale(1.2);
-}
-
-
-@media screen and (max-width:680px) {
-    ul.topnav li {
-        float: none;
-        text-align: center;
-        width: auto;
-        height: auto;
-    } 
-
-}
-
-
-
-a: visited { text-decoration: none; color: dodgerblue; }
-a: focus {text-decoration: none; color: black;}
-
-img.profile {
-    border-radius: 50%;
-    width: 150px;
-    padding: 20px;
-    display: block;
-    margin: 0 auto;
+.display_type {
+    color: #fff9ee;
+    font-family: 'Lexend Deca', sans-serif;
+    padding-left: 60px;
+    padding: 40px;
 }
 
 h1 {
-    color: dodgerblue;
-    font-family: 'Raleway', sans-serif;
-    font-size: 75px;
-    margin-top: 0px;
-    margin: 0px;
-    text-align: center;
+    font-size: 6em;
+    margin-bottom: -150px;
 }
 
 h2 {
-    color: dodgerblue;
-    font-family: 'Raleway', sans-serif;
-    font-size: 37.5px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin: 20px;
-    text-align: center;
-}
-
-h3 {
-    color: dodgerblue;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 18.75px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin: 20px;
-    text-align: center;
+    font-size: 4.5em;
 }
 
 
-
-
-ul {
-    list-style-type: none;
-    margin-left: 10px;
-    margin-top: 10px;
+#page {
+    display: grid;
+    width: 100%;
+    height: 50%;
+    grid-template-areas: "first second" "first second"
 }
 
+.first {
+    grid-area: first;
+    width: 50%:
+}
+
+
+.second {
+    grid-area: second;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    #page {
+    display: grid;
+    width: 100%;
+    height: 450px;
+    grid-template-areas: "first first" "second second"
+}
+    
+}
