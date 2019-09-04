@@ -42,6 +42,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -56,14 +57,10 @@ body {
 .display_type {
     color: #fff9ee;
     font-family: 'Lexend Deca', sans-serif;
-    padding-left: 60px;
-    padding: 40px;
 }
 
 h1 {
     font-size: 6em;
-    margin-bottom: -80px;
-    margin-top: -40px;
 }
 
 h2 {
@@ -74,8 +71,6 @@ h2 {
 h3 {
     font-family: 'Lexend Deca', sans-serif;
     color: #fff9ee;
-    margin-left: 45px;
-    margin-top: -35px;
     font-size: 1.4em;
 
 }
@@ -83,7 +78,7 @@ h3 {
 #page {
     display: grid;
     width: 100%;
-    grid-template-areas: "first first second" "first first second"
+    grid-template-areas: "first first second " "first first second" "third third third"
 }
 
 .first {
@@ -91,23 +86,33 @@ h3 {
     width: 450px:
     height: 450px;
     justify-content: center;
-    padding-top: 85px;
-    padding: 85px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 
 .second {
     grid-area: second;
     width: 100%;
+    border-radius: 50%;
 }
 
 
+img {
+    position: absolute;
+    width: 25%;
+    right: 0px;
+}
+
 
 footer {
+    position: absolute;
+    background-color: #fff9ee;
+    content: '';
+    width: 100%;
+    height: 20%;
     padding: 50px;
-    color: #fff9ee;
-    font-family: 'Lexend Deca', sans-serif;
-
+    bottom: 0px;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -120,7 +125,12 @@ footer {
     
     .second {
     grid-area: second;
-    width: 450px;
+}
+    
+    img {
+    position: absolute;
+    width: 100%;
+    right: 0px;
 }
 
     
