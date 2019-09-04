@@ -76,6 +76,8 @@ h3 {
     font-style: normal;
     color: #fff9ee;
     font-size: 1.6em;
+    margin-left: 5px;
+    margin-top: 5px;
 
 }
 
@@ -124,6 +126,7 @@ footer {
     width: 100%;
     height: 450px;
     grid-template-areas: "first first first" "second second second";
+
     
 }
     
@@ -132,7 +135,7 @@ footer {
 }
     
     img {
-    padding-top: 80px;
+    padding-top: 320px;
     position: relative;
     width: 100%;
     right: 0px;
