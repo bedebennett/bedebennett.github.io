@@ -313,11 +313,16 @@ footer {
     grid-template-areas: "text text"
                          "image image"
                          "footer footer";
-}
-        .email {
+    }
+    
+    .email {
          display: none;
          opacity: 0.3;
      }
+    
+    iframe {
+        width: 90%;
+    }
     
     
 
