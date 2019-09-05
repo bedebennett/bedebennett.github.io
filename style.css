@@ -73,8 +73,8 @@ body {
 
 
 .color-change-2x {
-	-webkit-animation: color-change-2x 2s linear infinite alternate both;
-	        animation: color-change-2x 2s linear infinite alternate both;
+	-webkit-animation: color-change-2x 7s linear infinite alternate both;
+	        animation: color-change-2x 7s linear infinite alternate both;
     padding: 7px;
     margin-top: 6px;
     margin-left: 0px;
@@ -219,7 +219,7 @@ iframe {
     padding-left: 50px;
     width: 35px;
     margin-top: 13px;
-    margin-right: -45px;
+    margin-right: -41px;
     margin-bottom: 0px;
 }
 
@@ -404,10 +404,6 @@ footer {
                          "footer footer";
     }
     
-    .email {
-         display: none;
-         opacity: 0.3;
-     }
     
     iframe {
         width: 90%;
