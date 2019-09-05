@@ -122,6 +122,10 @@ iframe {
     color: #fff9ee;
 }
 
+.workp:active {
+    color: #fff9ee;
+}
+
 .workp :visited {
     color: #fff9ee;
 }
@@ -137,7 +141,7 @@ iframe {
   background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #fff9ee 50%);
   background-position: -0% 0;
   background-size: 200% auto;
-  color: #eda183;
+  color: #fff9ee;
   text-decoration: underline;
   transition: background-position 0.2s ease-out;
 }
