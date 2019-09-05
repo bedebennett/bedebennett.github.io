@@ -119,6 +119,7 @@ iframe {
 .workp {
     font-size: 2.2em;
     transition: 0.3s ease all .1s;
+    color: #fff9ee;
 }
 
 .workp :visited {
