@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+    background-color: #FFB7A3;
+}
+
+.display_type {
+    color: #fff9ee;
+    font-family: sofia-pro, sans-serif; 
+    font-weight: 700;
+    font-style: normal;
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 9em;
+}
+
+h2 {
+    font-size: 6em;
+}
+
+
+
+p {
+    font-family: sofia-pro, sans-serif; 
+    color: #FFB7A3;
+    padding: 50px;
+    padding-bottom: 0px;
+    margin-top: 8px;
+    font-size: 1.5em;
+    margin-bottom: -35px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff9ee;
+    font-size: 1.6em;
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+
+#page {
+    display: grid;
+    width: 100%;
+    grid-template-areas: "first first second " "third third third"
+}
+
+.first {
+    grid-area: first;
+
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+.second {
+    grid-area: second;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+img {
+    position: absolute;
+    width: 25%;
+    right: 0px;
+}
+
+
+footer {
+    position: fixed;
+    background-color: #fff9ee;
+    content: '';
+    width: 100%;
+    height: 20%;
+    padding: 0px;
+    bottom: 0px;
+}
+
+@media only screen and (max-width: 850px) {
+    #page {
+    display: grid;
+    width: 100%;
+    height: 450px;
+    grid-template-areas: "first first first" "second second second";
+
+    
+}
+    
+    .second {
+    grid-area: second;
+}
+    
+    img {
+    padding-top: 320px;
+    position: relative;
+    width: 100%;
+    right: 0px;
+}
+    
+    h1 {
+    font-size: 5em;
+}
+
+    h2 {
+        font-size: 4em;
+    }
+    
+    h3 {
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+    footer {
+        position: fixed;
+        bottom: 0px;
+        padding: 15px;
+    }
+    
+}
