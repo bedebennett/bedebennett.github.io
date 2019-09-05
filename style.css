@@ -71,6 +71,61 @@ body {
     padding-top: 25px;
 }
 
+
+.color-change-2x {
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+    padding: 7px;
+    margin-top: 6px;
+    margin-left: 0px;
+    width: 83px;
+}
+
+
+
+
+
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: dodgerblue;
+  }
+  100% {
+    background: darkseagreen;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: dodgerblue;
+  }
+  100% {
+    background: darkseagreen;
+  }
+}
+
+
+
+@-webkit-keyframes color-change-2x:hover {
+  0% {
+    background: pink;
+  }
+  100% {
+    background: red;
+  }
+}
+@keyframes color-change-2x:hover {
+  0% {
+    background: pink;
+  }
+  100% {
+    background: red;
+  }
+}
+
+
+
+
+
 h1 {
     font-family: futura-pt, sans-serif; 
     font-size: 7em;
@@ -266,6 +321,15 @@ footer {
         margin-left: 3px;
         margin-top: 4px;
 }
+    
+    .color-change-2x {
+    padding: 8px;
+    padding-right: 1px;
+    padding-right: 4px;
+    margin-top: 6px;
+    margin-left: 0px;
+    width: 65px;
+}
 
 }
 
@@ -387,20 +451,6 @@ footer {
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
