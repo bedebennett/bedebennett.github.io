@@ -63,7 +63,7 @@ body {
 
 .text {
     color: #fff9ee;
-    font-family: sofia-pro, sans-serif; 
+    font-family: futura-pt, sans-serif;
     font-weight: 700;
     font-style: normal;
     padding-left: 50px;
@@ -72,15 +72,15 @@ body {
 }
 
 h1 {
-    font-family: sofia-pro, sans-serif; 
-    font-size: 9em;
+    font-family: futura-pt, sans-serif; 
+    font-size: 7em;
     color: #fff9ee;
 }
 
 h2 {
-    font-family: sofia-pro, sans-serif; 
+    font-family: futura-pt, sans-serif; 
     color: #fff9ee;
-    font-size: 6em;
+    font-size: 5em;
 }
 
 
@@ -90,6 +90,7 @@ h3 {
     margin: 0px;
     margin-top: 50px;
     margin-bottom: 10px;
+    font-family: futura-pt, sans-serif;
 }
 
 
@@ -98,6 +99,7 @@ p {
     margin-left: 7px;
     font-size: 1.6em;
     font-weight: 300;
+    font-family: futura-pt, sans-serif;
 }
 
 
@@ -158,21 +160,14 @@ iframe {
 
 
 .socials {
-    padding: 20px;
+    padding: 0px;
     padding-left: 50px;
     width: 35px;
-    margin-top: -7px;
-    margin-right: -60px;
-    margin-bottom: 10px;
+    margin-top: 13px;
+    margin-right: -45px;
+    margin-bottom: 0px;
 }
 
-.email {
-    margin-left: 240px;
-    bottom: 75px;
-    position: absolute;
-    font-family: sofia-pro, sans-serif; 
-    color: #FFB7A3;
-}
 
 .bluline {
     color: #FFB7A3;
@@ -181,7 +176,7 @@ iframe {
 
 
 footer {
-    position: fixed;
+    position: absolute;
     background-color: #fff9ee;
     content: '';
     width: 100%;
@@ -195,7 +190,7 @@ footer {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 35%;
+    grid-template-columns: 1fr 29%;
     grid-template-areas: "text image"
                          "footer footer";
 }
@@ -224,7 +219,7 @@ footer {
     
     .container {
     display: grid;
-    grid-template-columns: 1fr 45%;
+    grid-template-columns: 1fr 35%;
 }
     
     h1 {
@@ -235,15 +230,20 @@ footer {
         font-size: 5em;
     }
 
-   
-    
-    
-    
     
 }
 
 
-@media only screen and (max-width: 930px) {
+
+@media only screen and (max-width: 1200px) {
+    .container {
+    display: grid;
+    grid-template-columns: 1fr 40%;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
     
     .container {
     display: grid;
@@ -252,14 +252,33 @@ footer {
     
     
     h1 {
-        font-size: 6em;
+        font-size: 5em;
+        line-height: 0.7;
+        margin-bottom: 5px;
     }
     
     h2 {
-        font-size: 4em;
+        font-size: 3em;
     }
+    
+    p {
+        font-size: 1.2em;
+        margin-left: 3px;
+        margin-top: 4px;
+}
 
 }
+
+
+@media only screen and (max-width: 900px) {
+    
+    .container {
+    display: grid;
+    grid-template-columns: 1fr 50%;
+    }
+    
+}
+
 
 @media only screen and (max-width: 800px) {
 
@@ -279,7 +298,7 @@ footer {
     
     
     .container {
-            grid-template-columns: 1fr 55%;
+            grid-template-columns: 1fr 60%;
 }    
     
 
@@ -301,7 +320,7 @@ footer {
                          "footer footer";
     }
   
-    
+   
 
     
 }
@@ -334,6 +353,11 @@ footer {
         width: 90%;
         margin-left: 0;
     }
+    
+    footer {
+        margin-top: -10px;
+        position: static;
+}
     
     
 
