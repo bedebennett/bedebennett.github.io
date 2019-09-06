@@ -92,7 +92,10 @@ body {
 	        animation: color-change-2x 0.4s linear infinite alternate both;
 }
 
-
+.iphone_box {
+    width: 100%;
+    margin-top: 30px;
+}
 
 @-webkit-keyframes color-change-2x {
   0% {
