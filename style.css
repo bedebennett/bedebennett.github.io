@@ -54,7 +54,13 @@ table {
 
 
 
+.mobile_xi {
+    display: none;
+}
 
+.desktop_xi {
+    margin-top: 20px;
+}
 
 
 body {
@@ -132,22 +138,31 @@ h2 {
     font-family: futura-pt, sans-serif; 
     color: #fff9ee;
     font-size: 5em;
+    font-weight: 700
+}
+
+.workh2 {
+    padding: 50px;
+    font-size: 7em;
 }
 
 
 h3 {
     font-size: 3em;
     font-weight: 400;
-    margin: 0px;
-    margin-top: 50px;
+    margin: 50px;
+    margin-top: 30px;
     margin-bottom: 10px;
     font-family: acumin-pro-wide, sans-serif;
+    color: #fff9ee;
 }
 
 .iphones {
-    margin-left: -22px;
+    margin-left: 40px;
     margin-top: 10px;
 }
+
+
 
 p {
     margin-left: 5px;
@@ -161,7 +176,10 @@ p {
 .parawork {
     padding-left: 0px;
     padding-top: 5px;
-    width: 560px;
+    width: 66%;
+    color: #fff9ee;
+    margin-left: 50px;
+    
 }
 
 a {
@@ -254,6 +272,10 @@ footer {
 }
 
 
+h3_xi {
+    padding-top: 20px;
+    c
+}
 
 
 .container {
@@ -359,6 +381,11 @@ footer {
     margin-left: 30px;
     width: 80px;
 }
+    
+     .parawork {
+        width: 80%;
+        line-height: 1.2em;
+    }
 
 }
 
@@ -369,6 +396,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr 50%;
     }
+    
+    
     
     
     
@@ -390,6 +419,8 @@ footer {
     p {
         margin-left: 0px;
     }
+    
+    
     
     
     .container {
@@ -437,17 +468,26 @@ footer {
     
     
     iframe {
-        width: 90%;
+        width: 100%;
     }
     
     .parawork {
-        width: 90%;
-        margin-left: 0;
+        width: 80%;
+        line-height: 1.2em;
     }
     
     footer {
         margin-top: -10px;
         position: static;
+    }
+    
+    .desktop_xi {
+    display: none;
+}
+    
+    .mobile_xi {
+    margin-top: 50px;
+    display: block;
 }
     
     
