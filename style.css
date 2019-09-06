@@ -79,7 +79,7 @@ body {
     padding-top: 2px;
     padding-bottom: 5.5px;
     padding-right: 3.8px;
-    margin-top: 8px;
+    margin-top: 13px;
     margin-left: 220px;
     margin-right: 0px;
     width: 104px;
@@ -92,8 +92,8 @@ body {
 	        animation: color-change-2x 0.4s linear infinite alternate both;
 }
 
-.iphone_box {
-    width: 100%;
+.iphones {
+    width: 250px;
     margin-top: 30px;
 }
 
@@ -163,6 +163,7 @@ p {
     padding-top: 5px;
     width: 560px;
 }
+
 a {
     color: #fff9ee;
     text-decoration: none;
@@ -210,7 +211,7 @@ iframe {
   color: #fff9ee;
   text-decoration: underline;
   transition: background-position 0.2s ease-out;
-    text-decoration: none;
+  text-decoration: none;
 }
 .title a:hover {
   background-position: -99.99% 0;
@@ -317,7 +318,7 @@ footer {
     padding-top: 2px;
     padding-bottom: 5.5px;
     padding-right: 5px;
-    margin-top: 8px;
+    margin-top: 10px;
     margin-left: 0px;
         margin-right: 0px;
     width: 104px;
