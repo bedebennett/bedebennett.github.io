@@ -274,7 +274,6 @@ footer {
 
 h3_xi {
     padding-top: 20px;
-    c
 }
 
 
@@ -490,6 +489,13 @@ h3_xi {
     display: block;
 }
     
+    h3 {
+        font-size: 2em;
+    }
+    
+    .workh2 {
+        font-size: 6em;
+    }
     
 
 
