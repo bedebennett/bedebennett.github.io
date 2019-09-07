@@ -67,6 +67,9 @@ body {
     background-color: #FFB7A3;
 }
 
+
+
+
 .text {
     color: #fff9ee;
     font-family: futura-pt, sans-serif;
@@ -464,6 +467,11 @@ h3_xi {
                          "image image"
                          "footer footer";
     }
+    
+    .desktop_br {
+        display: none;
+        visibility: hidden;
+}
     
     
     iframe {
