@@ -11,7 +11,25 @@
         </head>
     
         <title>bede.design</title>
-    
+            <script>
+                (() => {
+                  'use strict';
+                  // Page is loaded
+                  const objects = document.getElementsByClassName('asyncImage');
+                  Array.from(objects).map((item) => {
+                    // Start loading image
+                    const img = new Image();
+                    img.src = item.dataset.src;
+                    // Once image is loaded replace the src of the HTML element
+                    img.onload = () => {
+                      item.classList.remove('asyncImage');
+                      return item.nodeName === 'IMG' ? 
+                        item.src = item.dataset.src :        
+                        item.style.backgroundImage = `url(${item.dataset.src})`;
+                    };
+                  });
+                })();
+            </script>
      
         <body>     
             <div class="workitem">
@@ -29,8 +47,8 @@
                 <br>
                 
                 <h3 class="h3_xi">1st XI Football Instagram Branding and Management</h3>
-                <img class="desktop_xi" width="100%" height=auto src="xi-01.png">
-                <img class="mobile_xi" width="100%" height=auto src="xi-03.png">
+                <img class="asyncImage" class="desktop_xi" width="100%" height=auto src="xi-01.png">
+                <img class="asyncImage" class="mobile_xi" width="100%" height=auto src="xi-03.png">
                 <br>
                 <br class="desktop_br">
                 <p class="parawork">With guidance from Ocean Design in Wellington, I have worked to brand and manage Wellington College's premier Football Team <a href="https://www.instagram.com/wcfc1sts/">@<u>wcfc1sts</a></u> for social media.</p>
@@ -43,8 +61,8 @@
                 <br>
                 
                 <h3>The Hive Branding</h3>
-                <img class="desktop_xi" width="100%" height=auto src="hive_desktop.jpg">
-                <img class="mobile_xi" width="100%" height=auto src="hive_mobile.jpg">
+                <img class="asyncImage" class="desktop_xi" width="100%" height=auto src="hive_desktop.jpg">
+                <img class="asyncImage" class="mobile_xi" width="100%" height=auto src="hive_mobile.jpg">
                 <br>
                 <br class="desktop_br">
                 <p class="parawork">In one wild weekend at <a href="https://curative.co.nz/">Curative's</a> creative studio in Auckland, I worked alongside the team there (including feedback from Jacinda Ardern!) to update the branding for <u><a href="https://www.the-hive.nz/">The Hive</a></u>: a platform to connect young people with those in charge of policy decisions in Aotearoa.</p>
