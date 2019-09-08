@@ -11,6 +11,42 @@
         </head>
     
         <title>bede.design</title>
+    
+        <script>
+            var lazy = document.getElementsByClassName('lazy');
+
+            for(var i=0; i<lazy.length; i++){
+             lazy[i].src = lazy[i].getAttribute('data-src');
+            }
+        </script>
+    
+    
+        <script>
+            function lazyLoad(){  
+            var lazy =
+            document.getElementsByClassName('lazy');
+
+            for(var i=0; i<lazy.length; i++){
+               lazy[i].src = 
+                   lazy[i].getAttribute('data-src');
+            }
+        }
+        </script>
+    
+    
+        <script>
+            function registerListener(event, func) {
+            if (window.addEventListener) {
+                window.addEventListener(event, func)
+            } else {
+                window.attachEvent('on' + event, func)
+            }
+        }
+        </script>
+    
+        <script>
+            registerListener('load', lazyLoad);
+        </script>
      
         <body>     
             <div class="workitem">
@@ -28,8 +64,17 @@
                 <br>
                 
                 <h3 class="h3_xi">1st XI Football Instagram Branding and Management</h3>
-                <img class="desktop_xi" width="100%" height=auto src="xi-01.png">
-                <img class="mobile_xi" width="100%" height=auto src="xi-03.png">
+                <img class="lazy" class="desktop_xi" width="100%" height=auto src="xi-01_low.png" data-src="xi-01.png">
+                <noscript>
+                    <img class="desktop_xi" width="100%" height=auto src="xi-01.png">
+                </noscript>
+                
+                
+                <img class="lazy" class="mobile_xi" width="100%" height=auto src="xi-03_low.png" data-src="xi-03.png">
+                <noscript>
+                    <img class="mobile_xi" width="100%" height=auto src="xi-03.png">
+                </noscript>
+                
                 <br>
                 <br class="desktop_br">
                 <p class="parawork">With guidance from Ocean Design in Wellington, I have worked to brand and manage Wellington College's premier Football Team <a href="https://www.instagram.com/wcfc1sts/">@<u>wcfc1sts</a></u> for social media.</p>
