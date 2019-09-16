@@ -260,7 +260,7 @@ iframe {
 
 
 
-
+@media only screen and (min-width: 1100px) {
 
 
 
@@ -283,7 +283,7 @@ iframe {
     padding-top: 5px;
 }
 
-
+}
 
 .socials {
     padding: 0px;
