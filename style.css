@@ -16,10 +16,10 @@ html {
 
 h1 {
     margin-bottom: -20px;
-    font-weight: 400;
     font-size: 2.3em;
-    font-family: roc-grotesk-wide, sans-serif; 
-    font-weight: 400;
+    
+    font-family: degular-display, sans-serif;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -33,11 +33,12 @@ a {
     color: white;
 }
 h4 {
-    font-family: roc-grotesk-wide, sans-serif; 
-    font-weight: 200;
-    font-style: normal;
     margin-bottom: -21px;
     text-decoration: none;
+    
+    font-family: degular, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 
