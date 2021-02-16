@@ -1,47 +1,484 @@
-html {
-    background-color: #000a12;
+.new_card {
+    background-image: url(https://via.placeholder.com/600);
+    background-size: cover;
+}
+
+
+
+mihi {
+    font-family: source-code-pro, monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.widescreen_container {
+  position: relative;
+    
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  object-fit: cover
+  
+    
+}
+
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  
+}
+
+
+#graphic_design {
+    background-color: floralwhite;
+    font-family: stolzl;
+}
+
+.widescreen_container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+
+.overlay {
     color: white;
-    font-family: sans-serif;
-    font-style: normal;
-    text-align: center;
     
 }
 
-.container {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+.badge_title_text {
+    font-size: 1.4em;
+    color: #1a1a1a;
+    margin: 20px;
+    font-family: stolzl, sans-serif;
+    
 }
 
-h1 {
-    margin-bottom: -20px;
-    font-size: 2.3em;
+.badge_tag {
+    margin: 20px;
+    margin-top: 0px;
+    font-family: source-code-pro, monospace;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+
+
+/*
+.text {
+  color: white;
+  font-size: 200%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 1em;
     
-    font-family: degular-display, sans-serif;
-    font-weight: 500;
-    font-style: normal;
+}
+
+
+.tag {
+  color: white;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: source-code-pro;
+  font-size: 100%;
+  line-height: 1em;
+    
+    
+}
+*/
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 h3 {
-    font-size: 1em;
+    display: none;
+}
+
+
+
+
+tag {
+    display: none;
+}
+
+
+.nav_item_logo {
+    font-family: stolzl, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+.nav_grid {
+    font-family: stolzl, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 2em;
+}
+
+
+.footer_grid {
+    font-family: stolzl, sans-serif;
+    font-size: 1.2em;
+}
+
+.copyright {
+    font-family: arial;
+    font-weight: 700;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+
+
+
+
+h1 {
+    font-family: stolzl, sans-serif;
+    font-size: 4.3em;
+    letter-spacing: -3px;
+    padding: 20px;
+    margin: 0;
+    
+    line-height: 1.1em;
+
+}
+
+
+h2 {
+    font-family: source-code-pro, monospace;
+    font-weight: 400;
+    font-style: normal;
+    
+    padding: 20px;
+    padding-top: 0;
+    margin: 0;
+
+}
+
+location {
+    color: dodgerblue;
+}
+
+work {
+    color: #FF584D;
+}
+
+work2 {
+    color: darkorange;
+}
+
+header {
+    max-width: 700px;
+    margin-left: 2em;
+    margin-top: 2em;
 }
 
 
 a {
     text-decoration: none;
-    color: white;
 }
+
+
+
+h3 {
+    font-family: stolzl, sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    color: #1a1a1a;
+    font-size: 2em;
+    letter-spacing: -1px;
+    max-width: 75%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  
+}
+
+
 h4 {
-    margin-bottom: -21px;
-    text-decoration: none;
-    
-    font-family: degular, sans-serif;
+    font-family: stolzl, sans-serif;
     font-weight: 300;
+    font-style: normal; 
+    color: #1a1a1a;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    max-width: 75%;
+    margin-top: 0.3em;
+    margin-left: 2em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: none;
+    line-height: 1.4em;
+  
+}
+
+gap {
+    padding 20px;
+    height: 2em;
+}
+
+
+card:hover {
+    background-color: lightgrey;
+    transition: 0.6s;
+}
+
+
+
+a {
+    color: #1a1a1a;
+}
+
+.widescreen_container :hover {
+    transition: 0.6s;
+    color: blue;
+}
+
+.mailto {
+    color: blue;
+}
+
+#right_link, #active_link {
+    padding-left: 20px;
+    font-size: 0.7em;
+    
+
+}
+
+#right_link {
+    vertical-align: middle;
+    line-height: 2em;
+    
+}
+
+#active_link {
+    font-weight: 300;
+    
+    line-height: 2em;
+    
+}
+
+
+
+#contact_links {
+    font-family: source-code-pro, monospace;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+
+.instagram {
+    color: #F77737;
+}
+
+.linkedin {
+    color: dodgerblue;
+}
+
+
+html {
+    background-color: white;
+    
+
+}
+
+bede {
+    color: #1a1a1a;
+}
+
+dot {
+    color: #1a1a1a;
+}
+
+design {
+    color: #1a1a1a;
+}
+
+
+
+.mobile_container {
+    display: none;
+}
+
+
+
+
+.logo_tag {
+    color: red;
+    margin: 20px 20px -20px 20px;
+    font-family: source-code-pro, monospace;
+}
+
+.graphic_tag {
+    color: dodgerblue;
+    margin: 20px 20px -20px 20px;
+    font-family: source-code-pro, monospace;
+}
+
+.motion_tag {
+    color: darkorange;
+    margin: 20px 20px -20px 20px;
+    font-family: source-code-pro, monospace;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .widescreen_container {
+    display: none;
+    }
+    
+    
+    .mobile_container {
+    display: grid;
+}
+    
+    
+    .logo_tag, .motion_tag, .brand_tag, .graphic_tag {
+        margin: 0px 0px 0px 40px;
+    }
+    
+    
+    gap {
+        height: 50px;
+        display: block;
+    }
+}
+
+
+
+@media only screen and (min-width: 900px) {
+    
+    .badge_title_text {
+        font-size: 2em;
+    }
+    
+    
+}
+
+phone.p {
+    color: red;
+}
+
+
+/* old CSS
+
+
+
+header {
+    padding: 2em;
+    display: grid;
+}
+
+h1 {
+    font-family: stolzl, sans-serif;
     font-style: normal;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: stolzl, sans-serif;
+    font-style: normal;
+    font-weight: 100;
 }
 
 
-@media only screen and (max-width: 700px) {
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+nav {
+    background: #efefef; 
+    clear: both;
+    height: 2em;
+    padding: 2em 0em 2em 2em;
+    display: grid;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    width: 12em;
+    float: left;
+}
+
+#navlist {
+    float: right;
+}
+
+li {
+    display: inline;
+    padding-right: 2em;
+    font-family: stolzl, sans-serif;
+    font-style: normal;
+    font-weight: 100;
 
 }
+    
+
+
+
+nav {
+    background-color: ghostwhite;
+}
+
+main {
+    background-color: aquamarine;
+    display: grid;
+}
+
+footer {
+    background-color: bisque;
+    display: grid;
+    grid-area: 
+}
+
+
+
+*/

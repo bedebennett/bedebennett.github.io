@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav_grid {
+    display: grid;
+    grid-template-columns: auto 6fr auto auto auto;
+    padding: 20px;
+}
+
+/*
+nav {
+    background-color: lightcyan;
+}
+*/
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    margin: 3em;
+}
+
+
+.footer_grid {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+/* about page */
+
+.about_img {
+    display: grid;
+}
+
+about {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1em;
+    margin: 3em;
+    grid-gap: 5em;
+}
+
+
+.about_img {
+    
+}
+
+mihi {
+    
+}
+
+
+contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5em;
+}
+
+
+.me_standard {
+    display: grid;
+    grid-column: 2/3;
+}
+contact-links {
+    display: grid;
+    grid-column: 3/4;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    
+        about, contact {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1r 1fr;
+}
+    
+    .me_standard {
+        width: 60%;
+        padding: 2em;
+        
+    }
+    
+    #contact_links {
+        padding-left: 2em;
+        
+    }
+    
+
+ 
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .nav_grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        text-align: left;
+        padding-left: 50px;
+        padding-top: 43px;
+}
+    
+    #right_link, #active_link {
+    padding-left: 0px;
+}
+    
+    
+    main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+        padding: 0;
+        margin: 0;
+}
+    
+    h3 {
+    display: grid;
+    margin-left: 40px;
+}
+    
+    tag {
+    display: grid;
+    margin-left: 40px;
+}
+    
+    img {
+        margin-bottom: 20px;
+    }
+    
+    
+    h4 {
+    font-family: stolzl, sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    color: #1a1a1a;
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    max-width: 75%;
+    margin-top: 0.3em;
+    margin-left: 2.2em;
+    display: grid;
+  
+}
+    
+    footer {
+        font-size: 0.4em;
+    }
+    
+
+
+
+    
+
+}
+
+
+
+
+
+/*
+
+.site {
+    position: relative;
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr 1fr 1fr;
+    grid-template-rows: 10% 20% 50% 20%;
+}
+
+nav {
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+
+
+
+
+.hello {
+    grid-row: 2/3;
+    grid-column: 1/4;
+    background-color: mediumaquamarine;
+}
+
+
+main {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    background-color: aqua;
+}
+
+
+
+footer {
+    grid-row: 4/5;
+    grid-column: 1/4;
+    background-color: aquamarine;
+}
+
+*/

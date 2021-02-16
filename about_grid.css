@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+mihi {
+    max-height: 500px;
+}
+
+.nav_grid {
+    display: grid;
+    grid-template-columns: auto 6fr auto auto auto;
+    padding: 20px;
+}
+
+
+
+about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5em;
+    margin: 3em;
+}
+
+
+mihi {
+    display: grid;
+    grid-column: 1/2;
+}
+
+maori {
+    color: #1a1a1a;
+}
+
+piki {
+    display: grid;
+    grid-column: 2/3;
+}
+
+
+
+.footer_grid {
+    padding: 20px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 870px) {
+    
+    mihi {
+    display: grid;
+    grid-column: 1/3;
+}
+
+piki {
+    display: grid;
+    grid-column: 1/3;
+}
+    
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .nav_grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        text-align: left;
+        padding-left: 50px;
+        padding-top: 43px;
+}
+    
+    #right_link, #active_link {
+    padding-left: 0px;
+}
+
