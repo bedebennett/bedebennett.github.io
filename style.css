@@ -1,3 +1,8 @@
+a {
+    color: #1a1a1a;
+}
+
+
 .new_card {
     background-image: url(https://via.placeholder.com/600);
     background-size: cover;
@@ -262,19 +267,19 @@ card:hover {
 
 
 
-a {
-    color: #1a1a1a;
-}
+
+
 
 .widescreen_container :hover {
     transition: 0.6s;
     color: blue;
 }
 
+/*
 .mailto {
     color: blue;
 }
-
+*/
 #right_link, #active_link {
     padding-left: 20px;
     font-size: 0.7em;
@@ -298,20 +303,52 @@ a {
 
 
 #contact_links {
-    font-family: source-code-pro, monospace;
     font-size: 1.5em;
     margin: 0;
-    padding: 0;
+    font-family: stolzl, sans-serif;
+    font-weight: 300;
+}
+
+instagram {
+    color: darkorange;
 }
 
 
-.instagram {
-    color: #F77737;
+phone {
+    color: darkorange;
 }
 
-.linkedin {
+a.phone {
+    color: darkorange;
+}
+a.instagram {
+    color: darkorange;
+}
+
+
+contact-links {
+    font-family: source-code-pro, monospace;
+}
+
+
+
+linkedin {
     color: dodgerblue;
 }
+a.linkedin {
+    color: dodgerblue;
+}
+
+
+.mailto {
+    color: blue;
+}
+
+a.phone {
+    color: darkorange;
+}
+
+*/
 
 
 html {
@@ -321,7 +358,7 @@ html {
 }
 
 bede {
-    color: #1a1a1a;
+    color: dodgerblue;
 }
 
 dot {
@@ -361,7 +398,7 @@ design {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 870px) {
   .widescreen_container {
     display: none;
     }
@@ -385,7 +422,7 @@ design {
 
 
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 870px) {
     
     .badge_title_text {
         font-size: 2em;
@@ -394,9 +431,7 @@ design {
     
 }
 
-phone.p {
-    color: red;
-}
+
 
 
 /* old CSS
@@ -482,3 +517,6 @@ footer {
 
 
 */
+
+
+

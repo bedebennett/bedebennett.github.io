@@ -48,23 +48,26 @@ piki {
 }
 
 
+
+
+
 @media only screen and (max-width: 870px) {
     
     mihi {
-    display: grid;
-    grid-column: 1/3;
-}
+        display: grid;
+        grid-column: 1/3;
+    }
 
-piki {
-    display: grid;
-    grid-column: 1/3;
-}
+    piki {
+        display: grid;
+        grid-column: 1/3;
+    }
     
     
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 870px) {
     
     .nav_grid {
         grid-template-columns: 1fr;

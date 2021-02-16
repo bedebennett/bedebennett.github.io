@@ -78,7 +78,7 @@ contact-links {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 870px) {
     
         about, contact {
         grid-template-columns: 1fr;
@@ -102,7 +102,7 @@ contact-links {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 870px) {
     
     .nav_grid {
         grid-template-columns: 1fr;

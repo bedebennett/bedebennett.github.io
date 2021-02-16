@@ -19,7 +19,7 @@ mihi {
 
 contact {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
     grid-template-rows: 5fr 1fr;
     grid-gap: 5em;
     margin: 3em;
@@ -51,16 +51,14 @@ contact-links {
 
 
 
-contact-links {
-    font-family: source-code-pro, monospace;
-}
+
 
 p.visilink {
     margin: 0;
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 870px) {
     
     .nav_grid {
         grid-template-columns: 1fr;
@@ -75,7 +73,7 @@ p.visilink {
 }
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 870px) {
     
     contact {
     display: grid;
@@ -100,4 +98,7 @@ p.visilink {
     
     
 }
+
+    
+    
 
