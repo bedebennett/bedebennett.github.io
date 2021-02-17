@@ -182,11 +182,10 @@ img {
 
 h1 {
     font-family: stolzl, sans-serif;
-    font-size: 4.3em;
     letter-spacing: -3px;
     padding: 20px;
     margin: 0;
-    
+    font-size: 3em;
     line-height: 1.1em;
 
 }
@@ -444,6 +443,10 @@ design {
         margin: -20px 0px 0px 20px;
         color: #223474;
         width: 80%;
+    }
+    
+    h1 {
+        font-size: 4.3em;
     }
     
     
