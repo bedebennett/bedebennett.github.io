@@ -38,7 +38,7 @@ me {
 contact-links {
     display: grid;
     grid-column: 2/3;
-    grid-row: 1/2;
+    height: 100px;
 }
 
 
@@ -78,7 +78,7 @@ p.visilink {
     contact {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     grid-gap: 5em;
     margin: 3em;
 }

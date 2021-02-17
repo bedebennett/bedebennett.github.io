@@ -23,6 +23,7 @@ about {
     grid-template-rows: 1fr;
     grid-gap: 5em;
     margin: 3em;
+    font-size: 1em;
 }
 
 
@@ -31,9 +32,7 @@ mihi {
     grid-column: 1/2;
 }
 
-maori {
-    color: #1a1a1a;
-}
+
 
 piki {
     display: grid;
