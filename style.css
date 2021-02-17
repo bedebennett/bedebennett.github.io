@@ -195,10 +195,10 @@ h2 {
     font-family: source-code-pro, monospace;
     font-weight: 400;
     font-style: normal;
-    
     padding: 20px;
     padding-top: 0;
     margin: 0;
+    font-size: 1.4em;
 
 }
 
@@ -336,6 +336,13 @@ contact-links {
     font-family: source-code-pro, monospace;
 }
 
+#contact_links {
+    margin: 0px 0px 0px 20px;
+}
+
+p.visilink {
+    margin: 0px 0px 0px 20px;
+    }
 
 
 linkedin {
@@ -447,6 +454,10 @@ design {
     
     h1 {
         font-size: 4.3em;
+    }
+    
+    h2 {
+        font-size: 1.6em;
     }
     
     
