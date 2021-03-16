@@ -10,6 +10,8 @@ mihi {
     max-height: 500px;
 }
 */
+
+
 .nav_grid {
     display: grid;
     grid-template-columns: auto 6fr auto auto auto;
@@ -24,40 +26,21 @@ contact {
 }
 
 
-
-
+contact-links {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
 
 me {
-    display: block;
     grid-column: 1/2;
     grid-row: 1/2;
-    padding: 0px 0px 0px 40px;
-}
-
-contact-links {
-    display: block;
-    grid-column: 2/3;
-    
 }
 
 
-
-.footer_grid {
+    .footer_grid {
     padding: 20px;
     text-align: center;
 }
-
-
-
-contact-links {
-    margin: 20px;
-}
-
-
-p.visilink {;
-}
-
-
 
 
 @media screen and (max-width: 870px) {
@@ -80,7 +63,6 @@ p.visilink {;
     contact {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20% 80%;
  
 }
     
@@ -89,7 +71,7 @@ p.visilink {;
     display: grid;
     grid-column: 1/2;
     grid-row: 2/3;
-    padding:  0px 50px 0px 50px;
+    padding:  0px 100px 0px 50px;
         
 }
 
@@ -97,11 +79,16 @@ p.visilink {;
     display: grid;
     grid-column: 1/2;
     grid-row: 1/2;
-    padding:  00px 10px 0px 10px;
+    padding:  0px 0px 0px 27px;
 }
     
     #contact_links {
         margin-top: 10px;
+}
+    
+   .footer_grid {
+    padding: 20px 20px 20px 50px;
+    text-align: left;
 }
     
     
