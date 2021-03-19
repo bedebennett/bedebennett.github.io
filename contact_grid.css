@@ -1,16 +1,19 @@
-/*
+
 body {
     margin: 0;
     padding: 0;
     
 }
 
-
+/*
 mihi {
     max-height: 500px;
 }
 */
 
+img {
+    max-width: 100%;
+}
 
 .nav_grid {
     display: grid;
@@ -19,30 +22,11 @@ mihi {
 }
 
 
-@media screen and (max-width: 870px) {
-    
-    .nav_grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        text-align: left;
-        padding-left: 50px;
-        padding-top: 43px;
-}
-    
-    #right_link, #active_link {
-    padding-left: 0px;
-}
-    
-       .footer_grid {
-    padding: 20px 20px 20px 50px;
-    text-align: left;
-}
-
-/*
 contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    padding: 20px;
 }
 
 
@@ -106,10 +90,10 @@ me {
         margin-top: 10px;
 }
     
-   .footer_grid {
-    padding: 20px 20px 20px 50px;
-    text-align: left;
-}
+    .footer_grid {
+        padding:  20px 20px 20px 50px;
+        text-align: left;
+    }
     
     
 }

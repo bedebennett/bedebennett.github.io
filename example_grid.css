@@ -1,14 +1,22 @@
 example {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row: 1fr 1fr 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-row: minmax(0, 1fr) minmax(0, 1fr);
+    padding: 100px 200px 100px  200px;
+    font-family: stolzl, sans-serif;
+    grid-gap: 50px;
 }
 
 
 
 tagline {
-    grid-column: 1/3;
+    grid-column: 1/2;
     grid-row: 1/2;
+    
+    
+    font-weight: 900;
+    font-size: 3em;  
+    
 }
 
 detailz {
@@ -19,8 +27,122 @@ detailz {
 
 client {
     grid-row: 2/3;
+    
 }
 
 detail_variable {
     grid-row: 3/4;
+    font-weight: 300;
+    
+}
+
+p {
+    line-height: 1.2em;
+    margin-bottom: -10px;
+}
+
+
+
+
+.two-col {
+       -moz-column-count: 2;
+       -moz-column-gap: 20px;
+       -webkit-column-count: 2;
+       -webkit-column-gap: 20px;
+        grid-column: 1/3;
+        font-weight: 300;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 20px;
+    
+        
+}
+
+
+two-column-text {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        grid-row: minmax(0, 1fr) minmax(0, 1fr);
+        padding: 80px 200px 60px 200px;
+        font-family: stolzl, sans-serif;
+        grid-gap: 50px;
+        line-height: 1.5em;
+
+}
+
+.flex_img {
+    grid-column: 1/3;
+    width: 100%;
+    display: grid;
+}
+
+.box_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    
+}
+
+.small_gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    
+}
+
+
+@media only screen and (max-width: 870px) {
+    .flex_img {
+        width: 50%:
+}
+    
+    .small_gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    
+}
+    
+}
+
+@media only screen and (max-width: 700px) {
+    
+    example {
+        padding: 50px 50px 50px 50px;
+        grid-gap: 20px;
+    }
+    
+ 
+    
+    two-column-text {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 80px 50px 85px 50px;
+    }
+    
+    .two-col {
+       -moz-column-count: 1;
+       -moz-column-gap: 20px;
+       -webkit-column-count: 1;
+       -webkit-column-gap: 20px;
+        grid-column: 1/3;
+        font-weight: 300;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 20px;
+    
+        
+}
+    
+    tagline {
+        grid-column: 1/3;
+        grid-row: 1/2;
+
+    }
+    
+    detailz {
+    grid-column: 1/3;
+    grid-row: 2/3;
 }
