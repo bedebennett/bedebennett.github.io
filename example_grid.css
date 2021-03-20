@@ -54,8 +54,16 @@ p {
         margin-top: 0px;
         margin-bottom: 0px;
         padding-top: 20px;
+        font-size: 1.3em;
+        line-height: 1.3em;
     
         
+}
+
+.side-col {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    font-weight: 300;
 }
 
 
@@ -92,6 +100,14 @@ two-column-text {
     
 }
 
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+    height: 1080px;
+    
+}
 
 @media only screen and (max-width: 870px) {
     .flex_img {
@@ -115,7 +131,12 @@ two-column-text {
         grid-gap: 20px;
     }
     
- 
+    iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
     
     two-column-text {
         grid-template-columns: minmax(0, 1fr);
